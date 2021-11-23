@@ -25,19 +25,24 @@ impl Component for Content {
                     <img src="img/han.svg" alt="Avatar" />
                 </div>
                 <div class="box">
-                    <div class="block is-size-3">{"Han Ha"}</div>
-                    <div class="block is-size-4">{"Software Engineer"}</div>
-                    <div class="block">
-                        {"Javascript, Python, Full Stack, Docker, Systems Design"}
-                        <br/>
-                        {"Located in the DC Metro area"}
-                    </div>
-                    <div class="block">
+                    <div class="block is-size-3">
+                        <span style="margin-right: 1rem">
+                            {"Han Ha"}
+                        </span>
                         <span class="icon">
                             <a href="https://github.com/hanbeul">
                                 <i class="fab fa-github"></i>
                             </a>
                         </span>
+                    </div>
+                    <div class="block"><span class="is-size-4" style="margin-right: 0.5rem">{"Software Engineer"}</span><span>{"located in the DC Metro area"}</span></div>
+                    <div class="block">
+                        <span>{"Javascript, TypeScript, React, Python, Docker"}</span>
+                    </div>
+                    <div class="block">
+                        {"This website was written in Rust and compiled to WebAssembly!"}
+                    </div>
+                    <div class="block">
                     </div>
                 </div>
             </main>
